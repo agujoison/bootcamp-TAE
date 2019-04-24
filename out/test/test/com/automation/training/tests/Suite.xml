@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My test suite" verbose="1">
+	<parameter name="searchCriteria" value="Appium" />
+	<parameter name="runAs" value="grid" />
+	<test name="My first test">
+		<classes>
+			<class name="com.automation.training.tests.WikiTests"></class>
+		</classes>
+	</test>
+</suite>
